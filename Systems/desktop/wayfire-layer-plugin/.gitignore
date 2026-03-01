@@ -1,0 +1,32 @@
+# Build directory
+build/
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+
+# Compiled files
+*.o
+*.so
+
+# Published package requirements
+.env
+__pycache__/
+venv/
+.DS_Store
+*.log
+*.db
+*.sqlite3
+*.pkl
+*.pt
+dist/
+
+# Systems-managed files
+manifest.yaml
+trait_*.yaml
+NOTES.md

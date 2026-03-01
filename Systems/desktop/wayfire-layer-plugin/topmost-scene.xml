@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<wayfire>
+  <plugin name="topmost-scene">
+    <_short>Topmost Scene</_short>
+    <_long>Keep matched views at the top of the root scene so they stay above drag and effect overlays.</_long>
+    <category>Desktop</category>
+    <option name="enabled" type="bool">
+      <_short>Enabled</_short>
+      <_long>Enable root-scene topmost reordering.</_long>
+      <default>true</default>
+    </option>
+    <option name="namespaces" type="string">
+      <_short>Pinned Namespaces</_short>
+      <_long>Semicolon-separated app IDs / namespaces to auto-pin.</_long>
+      <default></default>
+    </option>
+    <option name="priorities" type="string">
+      <_short>Namespace Priorities</_short>
+      <_long>Semicolon-separated namespace:priority pairs. Higher values are topmost.</_long>
+      <default></default>
+    </option>
+  </plugin>
+</wayfire>
